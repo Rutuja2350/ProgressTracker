@@ -1,0 +1,18 @@
+.navbar-menu {
+  box-shadow: 1px 1px 7px rgba(0,0,0,0.15);
+  transition: all 0.5s ease;
+  
+}
+
+.navbar__li-box:first-child {
+  margin-top:53px;
+  
+}
+.navbar__li-box {
+  height: 43px;
+  margin-top:15px;
+}
+.navbar__li-box:hover {
+  border-left: 7px solid #58b58c;
+  cursor: pointer;
+}
