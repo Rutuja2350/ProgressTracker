@@ -5,7 +5,7 @@ export default function Home() {
     <div className="home flex">
       <SideNavbar/>
       <div>
-        <p >Home</p>
+        <p>Home</p>
       </div>
     </div>
   );

@@ -28,7 +28,7 @@ const SideNavbar = () => {
   return (
     <nav
       className="navbar-menu w-3/4 bg-white h-screen shadow-lg transition-all ease-in-out delay-75"
-      style={{ width: window === false ? 250 : 100 }}
+      style={{ width: window === false ? 300 : 100 }}
     >
       <div
         className="flex justify-end p-2 cursor-pointer"
@@ -44,7 +44,7 @@ const SideNavbar = () => {
                 <img
                   src={item[1]}
                   alt={item[1]}
-                  style={{ paddingLeft: window === false ? 27 : 17 }}
+                  style={{ paddingLeft: window === false ? 27 : 17   }}
                 />
               </div>
               <div className="align-top pt-4 inline-flex">

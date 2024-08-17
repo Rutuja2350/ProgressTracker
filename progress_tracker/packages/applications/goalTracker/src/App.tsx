@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/home";
 import Dashboard from "./components/pages/dashboard";
-import TimeTracker from "./components/pages/timeTracker";
+import TimeTracker from "./components/pages/Timer/timeTracker";
 import Motivation from "./components/pages/getMotivated";
 import MyProfile from "./components/pages/myProfile";
-import Timer from "./components/pages/timer";
+import Timer from "./components/pages/Timer/timer";
 import "./App.css";
 
 function App() {

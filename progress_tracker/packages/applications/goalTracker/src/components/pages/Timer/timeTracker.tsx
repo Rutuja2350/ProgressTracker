@@ -1,5 +1,5 @@
 import { Button } from "antd";
-import SideNavbar from "../navbar/SideNav";
+import SideNavbar from "../../navbar/SideNav";
 import { PlusCircleOutlined } from '@ant-design/icons';
 
 export default function TimeTracker() {
