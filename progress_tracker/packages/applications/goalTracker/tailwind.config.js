@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {},
     colors: {
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'teal': '#58b58c'
     }
   },
   plugins: [],

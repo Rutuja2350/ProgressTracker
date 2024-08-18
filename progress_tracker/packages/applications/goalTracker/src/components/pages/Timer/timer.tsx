@@ -1,6 +1,7 @@
 import SideNavbar from "../../navbar/SideNav";
 import StopWatch from "../../common_functions/stopwatch";
 import { Col, Row } from "antd";
+import SelectMenu from "./selectMenu";
 
 export default function Timer() {
   const time = new Date();
@@ -9,15 +10,19 @@ export default function Timer() {
   return (
     <div className="home flex">
       <SideNavbar />
-      <div className="items-center w-full">
-        <div className="p-3 w-full">
-          <p>Timer</p>
+      <div className="items-center pt-10 w-full place-content-center">
+        <div className="pb-24 w-full">
+          <h1 className="text-6xl">What are you working on today ?</h1>
         </div>
-        <div>
-            <Row>
-                <Col span={12}></Col>
-                <Col span={12}><StopWatch/></Col>
-            </Row>
+        <div className="pb-14">
+          <Row>
+            <Col span={12}>
+              <SelectMenu />
+            </Col>
+            <Col span={12}>
+              <StopWatch />
+            </Col>
+          </Row>
         </div>
       </div>
     </div>
